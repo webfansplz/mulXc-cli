@@ -1,0 +1,40 @@
+{
+  "name": "mulxccli",
+  "version": "1.0.0",
+  "description": "webpack Multiple page scaffold!",
+  "main": "index.js",
+  "author": "webfansplz",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server  --config build/webpack.dev.conf.js",
+    "start": "npm run dev",
+    "build": "node build/build.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chalk": "^2.4.1",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^2.30.1",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "node-notifier": "^5.2.1",
+    "optimize-css-assets-webpack-plugin": "^3.2.0",
+    "ora": "^2.1.0",
+    "postcss-loader": "^2.1.5",
+    "rimraf": "^2.6.2",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^3.10.0",
+    "webpack-merge": "^4.1.2"
+  }
+}
